@@ -1,4 +1,5 @@
 /* using variable on declaration */
+
 html {
     scroll-behavior: smooth;
   }
@@ -19,7 +20,7 @@ a{
 .visually-hidden{
         display:none;
 }
-.section-tangline{
+.section-tagline{
 	color: var(--color-primary);
 .card-category {
 	color: var(--color-primary);
