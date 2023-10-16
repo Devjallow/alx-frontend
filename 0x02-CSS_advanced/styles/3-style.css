@@ -12,7 +12,7 @@ html {
     --font-family-base:
 }
 body{
-        color:var(--color-primary);
+        color:var(--text-color);
 }
 a{
         color:#161616;
@@ -20,7 +20,8 @@ a{
 .visually-hidden{
         display:none;
 }
-.section-tangline,
+.section-tangline{
+	color: var(--color-primary);
 .card-category {
   color: var(--color-primary);
 }
