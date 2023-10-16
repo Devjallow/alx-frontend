@@ -10,12 +10,20 @@ html {
     --color-dark-grey:#353535;
     --text-color: var(--color-black);
     --font-family-base:
-  }
+  }html{
+        scroll-behavior: smooth;
+}
+
+body{
+        color:var(--color-primary);
+}
+a{
+        color:#161616;
+}
+.visually-hidden{
+        display:none;
+}
 .section-tangline,
 .card-category {
   color: var(--color-primary);
 }
-body{
-  color:var(--text-color);
-}
-
