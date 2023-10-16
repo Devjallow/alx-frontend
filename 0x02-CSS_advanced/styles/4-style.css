@@ -1,21 +1,39 @@
-
-html {
-    scroll-behavior: smooth;
-  }
-  :root{
+/* Assigning font types to variable */
+:root {
     --color-primary:#d73953;
     --color-black:#090909;
     --color-white:#ffffff;
     --color-light-grey:#f3f3f3;
     --color-dark-grey:#353535;
     --text-color: var(--color-black);
-    --font-family-base:
-  }
-.section-tangline,
-.card-category {
-  color: var(--color-primary);
+    --font-family-base:'Helvetical Neue','Helvetical',Arial,sans-serif;
+    --font-family-title:'Helvetical Neue','Helvetical',Arial,sans-serif;
 }
-body{
-  color:var(--text-color);
+html {
+        scroll-behavior: smooth;
+}
+body {
+        color: var(--text-color);
+	font-family: var(--font-family-base);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: var(--font-family-title);
+a {
+        color: var(--text-color);
+}
+.visually-hidden {
+        display: none;
+}
+.section-tagline{
+        color: var(--color-primary);
+}
+.card-category {
+
+        color: var(--color-primary);
 }
 
