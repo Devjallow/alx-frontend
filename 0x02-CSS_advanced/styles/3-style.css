@@ -2,7 +2,7 @@
 html {
     scroll-behavior: smooth;
   }
-  :root{
+:root{
     --color-primary:#d73953;
     --color-black:#090909;
     --color-white:#ffffff;
@@ -23,5 +23,5 @@ a{
 .section-tangline{
 	color: var(--color-primary);
 .card-category {
-  color: var(--color-primary);
+	color: var(--color-primary);
 }
