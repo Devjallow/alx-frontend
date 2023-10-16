@@ -17,11 +17,8 @@ body{
 a{
         color:var(--text-color);
 }
-.visually-hidden{
-        display:none;
-}
 .section-tagline{
 	color:var(--color-primary);
-.card-category {
+.card-category{
 	color:var(--color-primary);
 }
