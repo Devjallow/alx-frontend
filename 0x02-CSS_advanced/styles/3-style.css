@@ -1,4 +1,4 @@
-
+/* using variable on declaration */
 html {
     scroll-behavior: smooth;
   }
@@ -10,10 +10,7 @@ html {
     --color-dark-grey:#353535;
     --text-color: var(--color-black);
     --font-family-base:
-  }html{
-        scroll-behavior: smooth;
 }
-
 body{
         color:var(--color-primary);
 }
