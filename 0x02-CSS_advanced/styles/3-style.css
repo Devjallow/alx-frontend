@@ -1,6 +1,6 @@
 /* using variable on declaration */
 
-:root{
+:root {
     --color-primary:#d73953;
     --color-black:#090909;
     --color-white:#ffffff;
@@ -8,17 +8,21 @@
     --color-dark-grey:#353535;
     --text-color: var(--color-black);
 }
-html{
-	scroll-behavior:smooth;
+html { 
+	scroll-behavior: smooth;
 }
-body{
-        color:var(--text-color);
+body {
+        color: var(--text-color);
 }
-a{
-        color:var(--text-color);
+a {
+        color: var(--text-color);
+}
+.visually-hidden {
+    	display: none;
 }
 .section-tagline{
-	color:var(--color-primary);
-.card-category{
-	color:var(--color-primary);
+	color: var(--color-primary);
+.card-category {
+
+	color: var(--color-primary);
 }
