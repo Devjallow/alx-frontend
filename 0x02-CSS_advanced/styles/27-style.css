@@ -144,8 +144,7 @@ ul .row {
         --button-color: var(--color-white);
 }
 .section-hero {
-	width:90rem;
-	height:auto;
+	background-size:90rem auto;
 }
 .section-hero .section-title {
 	margin-bottom:5rem;
