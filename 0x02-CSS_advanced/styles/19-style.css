@@ -29,7 +29,7 @@
     --nav-item-link-hover: var(--color-primary);
     --section-header-align:center;
     --section-tagline-transform:uppercase;
-    --section-tegline-margin;0;
+    --section-tagline-margin;0;
     --section-title-margin:0;
     --section-title-color: var(--color-black);
     --section-padding:5rem 0;
@@ -138,7 +138,7 @@ ul .row {
 }
 .footer-copyright {
 	margin:0;
-	font-size: var(font-siz-small);
+	font-size: var(--font-siz-small);
 	color: var(--text-color);
 }
 .footer ul{
