@@ -156,7 +156,7 @@ ul .row {
 	padding: var(--header-padding);
 }
 .header-logo {
-	position: var(--headerlogo-position);
+	position: var(--header-logo-position);
 }
 .header-logo  a {
 	display: var(--header-logo-link-display);
