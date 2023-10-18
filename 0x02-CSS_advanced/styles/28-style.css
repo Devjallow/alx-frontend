@@ -144,7 +144,7 @@ ul .row {
 }
 [class^="col-"] {
         float:left;
-        padding:0.5rem
+        padding:0.5rem;
 }
 [data-section-theme="dark"] {
         --text-color: var(--color-white);
